@@ -18,4 +18,5 @@ This is a simple RGB Color Picker web application that allows users to adjust th
 
 1. **Clone the Repository**:
    ```bash
-[https://github.com/Mohitmhatre32/RGB-ColorPicker.git]
+   git clone https://github.com/Mohitmhatre32/RGB-ColorPicker.git
+
