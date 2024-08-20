@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="PB-range-slider-div">
+        <label class="name" for="myRange1">R</label>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="50"
+          class="PB-range-slider"
+          id="myRange1"
+        />
+        <span id="redValue">50</span>
+
+      </div>
+
+      <div class="PB-range-slider-div">
+        <label class="name" for="green">G</label>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="50"
+          class="PB-range-slider"
+          id="myRange2"
+        />
+        <span id="greenValue">50</span>
+      </div>
+
+      <div class="PB-range-slider-div">
+        <label class="name" for="blue">B</label>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="50"
+          class="PB-range-slider"
+          id="myRange3"
+        />
+        <span id="blueValue">50</span>
+      </div>
+      <div id="colorBox"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
